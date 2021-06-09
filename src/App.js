@@ -1,11 +1,11 @@
-import { Fragment } from 'react';
+import React from 'react';
 
-import Header from './components/Layout/Header';
+import AddUser from './components/Users/AddUser'
 
 function App() {
   return (
     <div>
-      Users
+      <AddUser />
     </div>
   );
 }
